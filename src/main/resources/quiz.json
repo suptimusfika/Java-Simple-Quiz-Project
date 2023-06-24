@@ -1,0 +1,242 @@
+[
+  {
+    "answerKey": "1",
+    "option 3": "Both above",
+    "option 4": "None of the above",
+    "question": "What is the purpose of test closure?",
+    "option 1": "When a test level is completed",
+    "option 2": "When a test has completed"
+  },
+  {
+    "answerKey": "1",
+    "option 3": "Both 1 & 2",
+    "option 4": "None of the above",
+    "question": "What are the good practices for testing within the development life cycle?",
+    "option 1": "Early test analysis and design",
+    "option 2": "Testers will start testing after deployment is done"
+  },
+  {
+    "answerKey": "2",
+    "option 3": "System testing",
+    "option 4": "Unit testing",
+    "question": "Identify the incorrect testing technique.",
+    "option 1": "Integration testing",
+    "option 2": "Collaboration testing"
+  },
+  {
+    "answerKey": "1",
+    "option 3": "Grey box testing",
+    "option 4": "All of the above",
+    "question": "Cyclomatic complexity is?",
+    "option 1": "White-box testing",
+    "option 2": "Black box testing"
+  },
+  {
+    "answerKey": "3",
+    "option 3": "The testing team is not good",
+    "option 4": "All of the above",
+    "question": "Does the customer get a 100% bug-free product?",
+    "option 1": "Product is old",
+    "option 2": "Developers are super"
+  },
+  {
+    "answerKey": "4",
+    "option 3": "When the environment has been modified",
+    "option 4": "Both option a & c",
+    "question": "What is the best time to perform Regression testing?",
+    "option 1": "After the software has been modified",
+    "option 2": "As frequently as possible"
+  },
+  {
+    "answerKey": "1",
+    "option 3": "Black Box Test Design Technique",
+    "option 4": "grey Box Test Design Technique",
+    "question": "Exploratory testing is a -----?",
+    "option 1": "Experience-based Test Design Technique",
+    "option 2": "White Box Test Design Technique"
+  },
+  {
+    "answerKey": "2",
+    "option 3": "Procedure Errors",
+    "option 4": "None of the mentioned",
+    "question": "What is the key objective of Integration testing?",
+    "option 1": "Design Errors",
+    "option 2": "Interface Errors"
+  },
+  {
+    "answerKey": "3",
+    "option 3": "Incident reports",
+    "option 4": "Entry and exit criteria",
+    "question": "Which of the below is not a part of the Test Plan?",
+    "option 1": "Schedule",
+    "option 2": "Risk"
+  },
+  {
+    "answerKey": "2",
+    "option 3": "User's and developer's end",
+    "option 4": "None of the above",
+    "question": "In which environment we can performed the Alpha testing?",
+    "option 1": "User's end",
+    "option 2": "Developer's end"
+  },
+  {
+    "answerKey": "4",
+    "option 3": "Data flow testing",
+    "option 4": "All of the above",
+    "question": "White box testing techniques are?",
+    "option 1": "Statement coverage testing",
+    "option 2": "Decision coverage testing"
+  },
+  {
+    "answerKey": "2",
+    "option 3": "Test Level",
+    "option 4": "Test design technique",
+    "question": "Sanity testing is a ------?",
+    "option 1": "Test type",
+    "option 2": "Test Execution Level"
+  },
+  {
+    "answerKey": "2",
+    "option 3": "Test Design",
+    "option 4": "Testing closure",
+    "question": "Which of the following is not a part of STLC (Software Testing Life Cycle)?",
+    "option 1": "Testing Planning",
+    "option 2": "Requirement Gathering"
+  },
+  {
+    "answerKey": "4",
+    "option 3": "System testing",
+    "option 4": "All of the above",
+    "question": "What are the different levels of Testing?",
+    "option 1": "Integration testing",
+    "option 2": "Unit testing"
+  },
+  {
+    "answerKey": "4",
+    "option 3": "SDLC Model",
+    "option 4": "Test type",
+    "question": "Functional testing is a ------?",
+    "option 1": "Test design technique",
+    "option 2": "Test level"
+  },
+  {
+    "answerKey": "3",
+    "option 3": "Black box testing",
+    "option 4": "None of the above",
+    "question": "Which of the following testing is related to the boundary value analysis?",
+    "option 1": "White box and black box testing",
+    "option 2": "White-box testing"
+  },
+  {
+    "answerKey": "1",
+    "option 3": "Design based testing",
+    "option 4": "None of the above",
+    "question": "Which of the following testing is also known as white-box testing?",
+    "option 1": "Structural testing",
+    "option 2": "Error guessing technique"
+  },
+  {
+    "answerKey": "4",
+    "option 3": "Deployment phase",
+    "option 4": "Testing closure",
+    "question": "Which of the following is not a valid phase of SDLC (Software Development Life Cycle)?",
+    "option 1": "Testing Phase",
+    "option 2": "Requirement Phase"
+  },
+  {
+    "answerKey": "1",
+    "option 3": "A stage of all projects",
+    "option 4": "None of the above",
+    "question": "Which term is used to define testing?",
+    "option 1": "Evaluating deliverable to find errors",
+    "option 2": "Finding broken code"
+  },
+  {
+    "answerKey": "4",
+    "option 3": "Test strategy",
+    "option 4": "Project Initiation Note [PIN]",
+    "question": "Which of the following is not part of the Test document?",
+    "option 1": "Test Case",
+    "option 2": "Requirements Traceability Matrix [RTM]"
+  },
+  {
+    "answerKey": "1",
+    "option 3": "Retesting",
+    "option 4": "Sanity testing",
+    "question": "Which methodology is used to performed Maintenance testing?",
+    "option 1": "Breadth test and depth test",
+    "option 2": "Confirmation testing"
+  },
+  {
+    "answerKey": "3",
+    "option 3": "Module testing",
+    "option 4": "Source code writing",
+    "question": "Which one is done by the tester?",
+    "option 1": "Unit testing",
+    "option 2": "Component testing"
+  },
+  {
+    "answerKey": "4",
+    "option 3": "State transition",
+    "option 4": "Branch Coverage",
+    "question": "which of these is the whitebox testing?",
+    "option 1": "Equivalence partitioning",
+    "option 2": "Boundary Value analysis"
+  },
+  {
+    "answerKey": "3",
+    "option 3": "Equivalence partitioning",
+    "option 4": "condition coverage",
+    "question": "Which one is blackbox testing?",
+    "option 1": "path coverage",
+    "option 2": "branch coverage"
+  },
+  {
+    "answerKey": "1",
+    "option 3": "Sanity Testing",
+    "option 4": "Integration Testing",
+    "question": "Which testing is done by developer?",
+    "option 1": "Unit testing",
+    "option 2": "Regression Testing"
+  },
+  {
+    "answerKey": "3",
+    "option 3": "UAT testing",
+    "option 4": "Regression Testing",
+    "question": "Which testing is done by project manager and end user?",
+    "option 1": "Unit Testing",
+    "option 2": "Integression Testing"
+  },
+  {
+    "answerKey": "2",
+    "option 3": "Monkey Testing",
+    "option 4": "Feature Testing",
+    "question": "Which testing technique will you apply for if having inadequate requirement specification?",
+    "option 1": "Error guessing",
+    "option 2": "Exploratory Testing"
+  },
+  {
+    "answerKey": "1",
+    "option 3": "Development phase",
+    "option 4": "Testing phase",
+    "question": "Majority of system errors occur in the ------ phase.",
+    "option 1": "Requirement phase",
+    "option 2": "Analysis and design phase"
+  },
+  {
+    "answerKey": "4",
+    "option 3": "While doing automation",
+    "option 4": "Test procedure planning",
+    "question": "Test data planning is included when-",
+    "option 1": "Equivalent partitioning",
+    "option 2": "Boundary value analysis"
+  },
+  {
+    "answerKey": "3",
+    "option 3": "Failure",
+    "option 4": "Defect",
+    "question": "A deviation of actual result from the expectea result to the end user is called-",
+    "option 1": "Fault",
+    "option 2": "Bug"
+  }
+]
