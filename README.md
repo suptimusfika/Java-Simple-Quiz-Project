@@ -17,7 +17,15 @@ https://github.com/suptimusfika/Java-Simple-Quiz-Project/assets/48064134/f14c911
 
 ![image](https://github.com/suptimusfika/Java-Simple-Quiz-Project/assets/48064134/fe30fbb9-9fbe-422b-b727-137a1f90171e)
 
+## How to run this project
+- clone this project
+- Unzip the project zip
+- run the project using intellij
 
+## Technology Used
+- Intellij
+- Jdk-11
+  
 ## Used concept-
 - Type Casting
 - Operators
@@ -32,13 +40,3 @@ https://github.com/suptimusfika/Java-Simple-Quiz-Project/assets/48064134/f14c911
 - Write JSON List
 - Read JSON Array
   
-## Technology Used
-- Intellij
-- Jdk-11
-
-## How to run this project
-- clone this project
-- Unzip the project zip
-- run the project using intellij
-
-    
