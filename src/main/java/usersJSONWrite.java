@@ -13,7 +13,7 @@ public class usersJSONWrite {
         JSONParser jsonParser= new JSONParser();
         JSONArray jsonArray = (JSONArray) jsonParser.parse(new FileReader(filePath));
         JSONObject userObject= new JSONObject();
-        userObject.put("username","salman");
+        userObject.put("username","musfika");
         userObject.put("password","1234");
         userObject.put("role","student");
         jsonArray.add(userObject);
