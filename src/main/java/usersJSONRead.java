@@ -13,6 +13,7 @@ import java.util.Scanner;
 public class usersJSONRead {
     public static void main(String[] args) throws IOException, ParseException {
         String filePath = "./src/main/resources/users.json";
+        int flag=0;
         JSONParser jsonParser = new JSONParser();
         JSONArray userArray = (JSONArray) jsonParser.parse(new FileReader(filePath));
         Scanner input = new Scanner(System.in);
@@ -27,6 +28,7 @@ public class usersJSONRead {
                 String role = (String) userObj.get("role");
 
                 if (userName.equals(username) && passWord.equals(password) && role.equals("admin")) {
+                    flag =1;
                     System.out.println("Welcome admin! Please create new questions in the question bank.");
                     System.out.println("Are you ready? Press 's' to start.");
                     char start = input.next().charAt(0);
@@ -34,7 +36,9 @@ public class usersJSONRead {
                         generateQuestion();
                         break;
                     }
+                    else System.out.println("Invalid character");
                 } else if (userName.equals(username) && passWord.equals(password) && role.equals("student")) {
+                    flag=1;
                     System.out.println("Welcome " + userName + " to the quiz! We will throw you 10 questions. " +
                             "Each MCQ mark is 1 and no negative marking.");
                     System.out.println("Are you ready? Press 's' to start.");
@@ -43,8 +47,11 @@ public class usersJSONRead {
                         startQuiz();
                         break;
                     }
+                    else System.out.println("Invalid character");
                 }
             }
+            if(flag==0)
+                System.out.println("Invalid username or password");
 
     }
     private static void generateQuestion() throws IOException, ParseException {
@@ -82,8 +89,10 @@ public class usersJSONRead {
                     "(press s for continue and q for quit)");
             c = input.next().charAt(0);
 
-        } while (c != 'q' && c=='s');
-
+        } while (c=='s');
+        if(c!='q' && c!='s')
+            System.out.println("Invalid character");
+        else System.out.println("Log-out successfully");
 
     }
 
@@ -132,6 +141,9 @@ public class usersJSONRead {
             else System.out.println("Very sorry you are failed. You have got " + mark + " out of 10");
             System.out.println("Would you like to start again? press s for start or q for quit");
              ch=input.next().charAt(0);
-        }while(ch =='s' && ch !='q');
+        }while(ch =='s');
+        if(ch!='q' && ch!='s')
+            System.out.println("Invalid character");
+        else System.out.println("Log-out successfully");
     }
 }
